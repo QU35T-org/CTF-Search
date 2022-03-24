@@ -1,5 +1,5 @@
 var searchResultFormat =
-  '<tr><td>$category</td><td><a href="$ressources_link" target="_blank">$challenge</a></td><td><a href="$link" target="_blank">Link</a></td><td align="left">$description</td></tr>';
+  '<tr><td>$category</td><td><a href="$ressources_link" target="_blank">$challenge</a></td><td><a href="$link" target="_blank">Link</a></td><td align="left">$tags</td></tr>';
 var totalLimit = 250;
 
 var controls = {
@@ -43,7 +43,7 @@ var controls = {
     }
 
     dataset.forEach((e) => {
-      searchTerm = (e.category + e.challenge + e.description)
+      searchTerm = (e.category + e.challenge + e.tags)
         .toLowerCase()
         .replace(/[^a-zA-Z0-9 ]/g, "");
       if (searchTerm.match(regex)) results.push(e);
@@ -79,7 +79,7 @@ var controls = {
           .replace("$ressources_link", r.ressources_link)
           .replace("$challenge", r.challenge)
           .replace("$link", r.link)
-          .replace("$description", r.description);
+          .replace("$tags", r.tags);
 
         var wrapper = document.createElement("table");
         wrapper.innerHTML = el;

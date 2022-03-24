@@ -4,69 +4,69 @@
     "challenge": "Babyheap",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2017/Quals/pwn/babyheap",
     "link": "https://uaf.io/exploitation/2017/03/19/0ctf-Quals-2017-BabyHeap2017.html",
-    "description": "Heap Overflow, MMAPED, calloc, IS_MMAPED, chunk, libc address, fastbin attack, __malloc_hook, x86_64, Full RELRO, Canary, NX, PIE, ASLR\n"
+    "tags": "Heap Overflow, MMAPED, calloc, IS_MMAPED, chunk, libc address, fastbin attack, __malloc_hook, x86_64, Full RELRO, Canary, NX, PIE, ASLR\n"
   },
   {
     "category": "Pwn",
     "challenge": "Babystack",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/BabyStack",
     "link": "https://www.da.vidbuchanan.co.uk/blog/0CTF-2018-babystack-ret2dlresolve.html",
-    "description": "ROP, system, python\n"
+    "tags": "ROP, system, python\n"
   },
   {
     "category": "Pwn",
     "challenge": "BlackHoleTheory",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/BlackHoleTheory",
     "link": "http://gmiru.com/writeups/octf-bh/",
-    "description": "CSU, LSB, alarm, ROP\n"
+    "tags": "CSU, LSB, alarm, ROP\n"
   },
   {
     "category": "Pwn",
     "challenge": "HeapStormII",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/HeapStormII",
     "link": "https://gist.github.com/Jackyxty/9de01a0bdfe5fb6d0b40fe066f059fa3",
-    "description": "Heap\n"
+    "tags": "Heap\n"
   },
   {
     "category": "Pwn",
     "challenge": "MathGame",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/MathGame",
     "link": "https://gist.github.com/hellman/ea0ea9f5f2607b091e22389268ea2015",
-    "description": "Math\n"
+    "tags": "Math\n"
   },
   {
     "category": "Pwn",
     "challenge": "MightyDragon",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/MightyDragon",
     "link": "https://david942j.blogspot.com/2018/04/write-up-0ctf-quals-2018-pwn1000-mighty.html",
-    "description": "LibC, ARM 32bit, qemu, BOF\n"
+    "tags": "LibC, ARM 32bit, qemu, BOF\n"
   },
   {
     "category": "Pwn",
     "challenge": "Zer0FS",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/Zer0FS",
     "link": "https://blog.eadom.net/writeups/0ctf-2018-zerofs-writeup/",
-    "description": "Driver module, custom filesystem\n"
+    "tags": "Driver module, custom filesystem\n"
   },
   {
     "category": "Pwn",
     "challenge": "Freenote2018",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Finals/pwn/freenote2018",
     "link": "",
-    "description": "Double free, fastbin dup, overlapping chunks, heap metadata, ROP\n"
+    "tags": "Double free, fastbin dup, overlapping chunks, heap metadata, ROP\n"
   },
   {
     "category": "Crypto",
     "challenge": "Zer0lfsr",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2021/Quals/crypto/zer0lfsr",
     "link": "https://ctftime.org/writeup/29126",
-    "description": "LFSR, Z3 SMT Solver\n"
+    "tags": "LFSR, Z3 SMT Solver\n"
   },
   {
     "category": "Web",
     "challenge": "2rm1",
     "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2021/Quals/web/2rm1",
     "link": "https://github.com/ceclin/0ctf-2021-2rm1-soln",
-    "description": "deserialization, java, rmi, ssrf\n"
+    "tags": "deserialization, java, rmi, ssrf\n"
   }
 ]
