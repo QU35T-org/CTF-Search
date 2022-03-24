@@ -1,0 +1,86 @@
+[
+  {
+    "category": "Pwn",
+    "challenge": "Babyheap",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2017/Quals/pwn/babyheap",
+    "link": "https://uaf.io/exploitation/2017/03/19/0ctf-Quals-2017-BabyHeap2017.html",
+    "description": "This challenge contains a heap overflow vulnerability. Lesson learned is that if the chunk being allocated is MMAPED, the content will not be zero out when using calloc. So, by using the overflow vulnerability, we can set IS_MMAPED bit of the target chunk in order to leak a libc address, and then launch the fastbin attack in order to overwrite __malloc_hook. This is a good challenge to understand how to exploit x86_64 binaries with Full RELRO, Canary, NX, PIE, and ASLR protections.\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "Babystack",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/BabyStack",
+    "link": "https://www.da.vidbuchanan.co.uk/blog/0CTF-2018-babystack-ret2dlresolve.html",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "BlackHoleTheory",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/BlackHoleTheory",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "HeapStormII",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/HeapStormII",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "MathGame",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/MathGame",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "MightyDragon",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/MightyDragon",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "Zer0FS",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Quals/pwn/Zer0FS",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "Baby",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Finals/pwn/baby",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "Blackhole2",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Finals/pwn/blackhole2",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "Freenote2018",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Finals/pwn/freenote2018",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "Pemu",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Finals/pwn/pemu",
+    "link": "",
+    "description": "\n"
+  },
+  {
+    "category": "Pwn",
+    "challenge": "Vtp",
+    "ressources_link": "https://github.com/sajjadium/ctf-archives/tree/main/0CTF/2018/Finals/pwn/vtp",
+    "link": "",
+    "description": "\n"
+  }
+]

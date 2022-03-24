@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Search utility for CTF Ressources and Writeups">
+	<meta name="keywords" content="ctf, ctf-search, writeups, competition, web, pwn, crypto, reverse">
+	<meta name="author" content="QU35T">
+	<link rel="icon" type="image/png" href="./logo.jpg" />
+
+	<link rel="stylesheet" href="style.css">
+
+	<title>QU35T - CTF Search</title>
+</head>
+<body class="color-no-search">		
+	<div class="container">
+		
+		<div class="search">
+			<div class="header">
+				<h1>CTF Search</h1>
+				<div class="social">
+					<a target="_blank" href="https://twitter.com/QU35T_TV">Twitter</a>
+					&bullet;
+					<a target="_blank" href="https://app.hackthebox.com/teams/overview/2460">AEGIS</a>
+					&bullet;
+					<a target="_blank" href="https://app.hackthebox.com/profile/128441">HackTheBox</a>
+				</div>
+			</div>
+		
+			<div class="query">
+				<form class="searchForm" action="#">
+					<input type="text" class="search" placeholder="ENTER SEARCH TERM" autocomplete="false">
+				</form>
+
+			</div>
+
+			<div class="results">
+				<br>
+				<div class="noResults">
+					<h2>No Results Found</h2>
+				</div>
+				<div class="results-table">
+					
+					<table class="results">
+						<thead>
+							<tr>
+								<td width="20%">
+								    Category	
+								</td>
+								<td width="20%">
+									Challenge	
+								</td>
+								<td width="20%">
+									Writeup
+								</td>
+								<td>
+									Description
+								</td>
+							</tr>
+						</thead>
+						<tbody class="results">
+				
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			&copy; QU35T 2022
+			<br>
+			Theme Inspiration: <a target="_blank" href="https://ippsec.rocks">Ippsec</a>
+			<br>
+		</div>
+	</div>
+
+	<script src="logic.js"></script>
+</body>
+
+</html>
